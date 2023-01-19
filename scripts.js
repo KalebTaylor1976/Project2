@@ -17,4 +17,5 @@ document.getElementById("language-suggester-form").addEventListener("submit", fu
   } else if (experienceLevel === "advanced" && interests.includes("machine-learning")) {
     language = "Python";
   } else if (preference === "yes") {
-    language = "English" }   )
+    language = "English" }   }
+)
