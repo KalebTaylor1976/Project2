@@ -8,7 +8,7 @@ Technologies used: HTML and Java script
 
 Complete setup/installation instructions: Download repository and load Index.html
 
-Known bugs: Site not yet returning language selection yet 
+Known bugs: Site not yet returning language selection
 
 License information with a copyright and date:
 
