@@ -22,4 +22,11 @@ document.getElementById("language-suggester-form").addEventListener("submit", fu
 
   // Do something with the suggested language
   console.log(language);
+
+  // Get the element where you want to display the suggested language
+const displayElement = document.getElementById("display-suggested-language");
+
+// Set the text content of the element to the suggested language
+displayElement.textContent = language;
+
 });
