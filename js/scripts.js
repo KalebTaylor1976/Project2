@@ -9,7 +9,7 @@ document.getElementById("language-suggester-form").addEventListener("submit", fu
   const preference = document.getElementById("preference").value;
 
   // Determine language suggestion
-  let language = "";
+  let language = "language-suggester-form";
   if (experienceLevel === "beginner" && interests.includes("web-development")) {
     language = "JavaScript";
   } else if (experienceLevel === "intermediate" && interests.includes("mobile-app-development")) {
@@ -27,6 +27,8 @@ document.getElementById("language-suggester-form").addEventListener("submit", fu
 const displayElement = document.getElementById("display-suggested-language");
 
 // Set the text content of the element to the suggested language
+document.getElementById("demo").style.fontSize = "x-large";
 displayElement.textContent = language;
+
 
 });
