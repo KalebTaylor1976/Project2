@@ -27,7 +27,7 @@ document.getElementById("language-suggester-form").addEventListener("submit", fu
 const displayElement = document.getElementById("display-suggested-language");
 
 // Set the text content of the element to the suggested language
-document.getElementById("demo").style.fontSize = "x-large";
+document.getElementById("display-suggested-language").style.fontSize = "x-large";
 displayElement.textContent = language;
 
 
